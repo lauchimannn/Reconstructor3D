@@ -9,4 +9,6 @@ python view_ply.py
 python -m pip install requirements.txt
 
 # Run
-python reconstruct.py sample_images/view1.jpg sample_images/view2.jpg
+python reconstruct.py
+
+python reconstruct_colmap.py
