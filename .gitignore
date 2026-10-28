@@ -1,0 +1,36 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+venv/
+
+# Test and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+
+# Colmap
+colmap-x64-windows-cuda/*
+
+# Samples
+sample_images/*
+!sample_images/.gitkeep
+
+# Output
+output/*
+!output/.gitkeep
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
